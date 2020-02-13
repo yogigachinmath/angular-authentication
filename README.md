@@ -1,3 +1,5 @@
+this is simple and secure angular application demostrating Role based authentication with username and password with node, express, jwt, cookies.
+
 # Awesome
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
@@ -5,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
+And to run the backend server goto  backend folder and run node app.js
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
