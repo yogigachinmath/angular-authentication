@@ -1,0 +1,15 @@
+<div class="LoginContainer">
+  <form>
+    <div class="email">
+      <label for="#LoginEmail">Enter the email-id</label>
+      <input type="email" id='LoginEmail' [(ngModel)] = 'loginData.email' name = 'email'>
+    </div>
+    <div class="password">
+      <label for="#LoginPassword">Enter the Password</label>
+      <input type="password" id='LoginPassword' [(ngModel)] = 'loginData.password' name = 'password'>
+    </div>
+    <label for=".checkbox">remember me</label>
+    <input class = 'checkbox' type = 'checkbox' [(ngModel)]="isChecked" (change)="toggleVisibility($event)" name="rememberMeCheckbox"/><br>
+      <button (click) = "login()" class="submit" type="submit" >Submit</button>
+  </form>
+</div>
